@@ -1,0 +1,33 @@
+.player-selection {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    width: 150px;
+    height: auto;
+    padding: 25px;
+    text-decoration: none;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.selected-items {
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.selected-image {
+    height: 180px;
+    width: auto;
+    padding: 15px;
+}
